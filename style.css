@@ -1,97 +1,46 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cabin Sketch', sans-serif;
 }
 
-.left-pane{
-    background-color: white;
-    width: 30vw;
-    height: 100vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.13);
-}
-
-.logo {
-    margin-top: 20px;
-}
-
-.logoElement{
-    width: 30%
-}
-
-.text{
-    margin-top: 50px;
-    margin-left: 10px;
-}
-
-.headingText{
-    font-size: 1.5rem;
-}
-
-input{
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 5px;
-    width: 95%;
-    height: 5%;
-    font-size: 1.25rem;
-    border: 2px solid #099dfd;
-    border-radius: 5px;
-}
-.submitButton{
-    background-color: #099dfd;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 35px;
-    padding-left: 35px;
-    color: white;
-    border: none;
-    font-size: 1.25rem;
-    border-radius: 4px;
-}
-
-.participants {
-    margin-top: 40px;
-    margin-left: 10px;
-}
-
-.participantText {
-    margin-top: 40px;
-    margin-left: 10px;
-    font-size: 1.25rem;
-}
-
-#participantList{
-    margin-left: 20px;
-}
-
-.flexContainer{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.right-container{
+.container{
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
     align-items: center;
+
 }
 
-#right-top{
+.personalData{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.distanceText{
+    font-size:2rem;
+}
+
+.submitButton{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+}
+
+#top{
     display: flex;
     width: 100%;
     height: 65vh;
-    flex-direction: column;
-    padding-left: 8vw;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
-#right-bottom{
+#bottom{
     display: flex;
     width: 100%;
     height: 35vh;
@@ -102,12 +51,35 @@ input{
 
 
 #SelfStream{
-    margin-top: 40px;
+    margin-top: 10px;
     border: 2px solid #099dfd;
-    width: 950px;
-    height: 375px;
+    width: 300px;
+    height: 200px;
 }
 
 #remoteStream{
     flex-direction: row;
+}
+
+.controls{
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 600px;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.13);
+}
+
+.icon {
+    height: 40px;
+    width: 50px;
+    margin: 20px;
+    cursor: pointer;
 }
