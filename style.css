@@ -15,11 +15,36 @@ body{
 
 .personalData{
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.remoteData{
+    text-align: center;
 }
 
 .distanceText{
     font-size:2rem;
+}
+
+#stopWatch{
+    font-size: 3rem;
+
+}
+
+#startStop{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+#Reset{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 4px;
 }
 
 .submitButton{
@@ -34,7 +59,7 @@ body{
 #top{
     display: flex;
     width: 100%;
-    height: 65vh;
+    height: 25vh;
     flex-direction: row;
     justify-content: center;
 
@@ -43,8 +68,8 @@ body{
 #bottom{
     display: flex;
     width: 100%;
-    height: 35vh;
-    padding-left: 6.5vw;
+    height: 40vh;
+    padding-left: 17vw;
     align-items: left;
     flex-direction: row;
 }
@@ -52,14 +77,34 @@ body{
 
 #SelfStream{
     margin-top: 10px;
-    border: 2px solid #099dfd;
-    width: 300px;
-    height: 200px;
+    border: 2px solid #00CCFF;
+    width: 250px;
+    height: 150px;
 }
 
 #remoteStream{
     flex-direction: row;
 }
+
+#remoteData{
+    height: 50px;
+    width: 100%;
+
+
+}
+
+#positions{
+    background-color:  #99FF66;
+    height: 150px;
+    width: 100%;
+}
+
+.people {
+    height: 30px;
+    width: 30px;
+    background-color: #00CCFF;
+    margin-left: 60vw;
+} 
 
 .controls{
     justify-self: end;
@@ -67,7 +112,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0px;
     height: 100px;
     width: 600px;
